@@ -3,7 +3,8 @@ jQuery-inject
 
 Ruby-like inject for jQuery
 
-h2. Usage
+Usage
+===
 
 ```jquery
 $([1, 2, 3]).inject(0, function(sum, n) { return sum + n; }); // => 6
